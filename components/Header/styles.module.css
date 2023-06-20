@@ -1,0 +1,12 @@
+.header {
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+.header_ul {
+  display: flex;
+  gap: 15px;
+}
+.header_ul > li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

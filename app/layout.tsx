@@ -1,5 +1,7 @@
 import "@/assets/reset.css";
+import Header from "@/components/Header";
 import Provider from "@/stores/Provider";
+import styles from "./layout.module.css";
 
 export default function RootLayout({
   children,
@@ -8,7 +10,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className={styles.body}>
+        <Header />
         <Provider>{children}</Provider>
       </body>
     </html>
