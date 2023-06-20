@@ -4,25 +4,26 @@
 
 ### 기본 세팅
 
-- Next13 + TypeScript 세팅
-- ESLint + Prettier 세팅
-- `sitemap.ts` , `robots.ts` 를 통한 SEO 관리
-- i18n을 통한 다국어 세팅
+- Next13 + TypeScript + ESLint 세팅
+- `Pages`라우팅 방식이 아닌 새로 도입된 `App`라우터 방식 사용
+- `sitemap.ts` , `robots.ts`와 html의 시맨틱태그를 통한 `SEO` 관리
 - `@reduxjs/toolkit` 상태관리 라이브러리를 통한 상태관리 세팅
-- next/image 컴포넌트를 사용한 이미지 렌더링 최적화 및 Layout Shift 현상 방지
-- 에러, 로딩, 404 페이지 처리
-- `'use client'`를 사용한 서버 및 클라이언트 컴포넌트 관리
 - `RTK Query`를 사용한 비동기 데이터 처리
+- `next/image` 컴포넌트를 사용한 이미지 렌더링 최적화 및 Layout Shift 현상 방지
+- 에러 및 404 페이지 처리
+- `loading.tsx`를 활용한 로딩 이펙트 처리
+- `'use client'`를 사용한 서버 및 클라이언트 컴포넌트 관리
 
 위 세팅 이외에 `app/` 내부의 컴포넌트들로 총 7개의 예시 페이지가 존재합니다.
 
 1. 메인 페이지
-2. 다국어 테스트 페이지
-3. env 테스트 페이지
-4. 이미지 임포트 관련 예시 페이지
-5. `@reduxjs/toolkit` 스토어 사용 관련 예시 페이지
-6. 미들웨어를 적용한 서브 페이지
-7. `RTK Query` 훅을 사용해 비동기 데이터를 처리하는 예시 페이지
+2. 미들웨어 테스트 서브 페이지
+3. 이미지 임포트 관련 예시 페이지
+4. `@reduxjs/toolkit` 스토어 사용 관련 예시 페이지
+5. `next/navigation`을 사용한 `query` 및 `param` 데이터 처리 페이지
+6. `RTK Query` 훅을 사용해 비동기 데이터를 처리하는 예시 페이지
+7. 404 테스트 페이지
+8. 로딩 이펙트 처리
 
 ---
 

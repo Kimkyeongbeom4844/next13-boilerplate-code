@@ -5,8 +5,5 @@
 .header_ul {
   display: flex;
   gap: 15px;
-}
-.header_ul > li:hover {
-  cursor: pointer;
-  text-decoration: underline;
+  margin-top: 15px;
 }
