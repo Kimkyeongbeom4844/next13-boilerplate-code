@@ -10,7 +10,7 @@ const nextConfig = {
     staticFolder: "/static",
   },
   env: {
-    DOMAIN: "localhost:3000",
+    DOMAIN: "https://next13-boilerplate-code.vercel.app/",
   },
 };
 
